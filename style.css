@@ -2,11 +2,11 @@
     box-sizing: border-box;
     padding: 0%;
     margin: 0%;
+    justify-items: center;
 }
 body{
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color:antiquewhite;
-    /* margin: 5%; */
     width: 320px;
 }
 .container{
@@ -22,11 +22,17 @@ header{
     background-color: rgba(128, 128, 128, 0.282);
     line-height: 1rem;
 }
+
+ article{
+    line-height: 13px;
+ }
+
 h1{
     font-size:small;
     font-weight:70px;
     padding-top: 20px;
 }
+
 h2{
     font-size: small;
     text-align: auto;
@@ -43,8 +49,7 @@ h3{
 }
 img{
     width: 95%;
-    height: 100px;
-    border-radius: 1vw;
+    border-radius:0.5rem;
 }
   
 
@@ -57,6 +62,7 @@ footer{
     background-color: rgba(0, 0, 0, 0.867);
     height: 59px;
     text-emphasis-color: white;
+    width: 100%;
       
 }
  .foot{
